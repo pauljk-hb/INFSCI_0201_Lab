@@ -3,9 +3,12 @@ class Caesar:
         self._key = 0
 
     def set_key(self, key: int):
-        if key < 0:
+        if not isinstance(key, int):
+            print("Key must be an integer")
+        elif key < 0:
             print("Negative keys are not supported")
-        self._key = key
+        else:
+            self._key = key
     
     def get_key(self) -> int:
         return self._key
@@ -46,3 +49,7 @@ print(cipher.decrypt('FFF')); #prints “zzz”
                      
 cipher.set_key(-6) # Negative keys should be supported!
 print(cipher.encrypt('FFF')) #prints “zzz”
+
+cipher.set_key('a')
+cipher.get_key()
+print(cipher.decrypt('FFF')); #prints “zzz”
