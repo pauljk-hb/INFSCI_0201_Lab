@@ -70,7 +70,6 @@ class Potion(Item):
     def from_ability(cls, name, owner, potion_type):
         return cls(name, potion_type, value=50, effective_time=30, rarity="common")
 
-
 long_bow = Weapon(name='Belthronding', damage=5000, weapon_type='bow', rarity='legendary')
 print(long_bow.pick_up('Beleg'))
 print(long_bow.equip())
@@ -82,6 +81,5 @@ print(broken_shield.equip())
 print(broken_shield.use())
 print(broken_shield.throw_away())
 print(broken_shield.use())
-
 atk_potion = Potion.from_ability(name='Atk Potion Temp', owner='Beleg', potion_type='attack')
 print(atk_potion.use())
