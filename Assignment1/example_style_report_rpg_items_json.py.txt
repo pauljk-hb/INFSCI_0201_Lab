@@ -1,0 +1,79 @@
+File Structure
+Total Lines: 206
+
+Imports: json
+
+Classes: Item, Weapon, Shield, Potion, Inventory
+
+Functions: test_item
+
+DocStrings:
+Item: DocString not found
+Weapon: DocString not found
+Shield: DocString not found
+Potion: DocString not found
+Inventory: DocString not found
+test_item: DocString not found
+__init__: DocString not found
+pick_up: DocString not found
+throw_away: DocString not found
+use: DocString not found
+__str__: DocString not found
+__init__: DocString not found
+use: DocString not found
+equip: DocString not found
+to_json: DocString not found
+from_json: DocString not found
+equip: DocString not found
+__init__: DocString not found
+equip: DocString not found
+use: DocString not found
+to_json: DocString not found
+from_json: DocString not found
+__init__: DocString not found
+to_json: DocString not found
+from_ability: DocString not found
+from_json: DocString not found
+__init__: DocString not found
+add_item: DocString not found
+drop_item: DocString not found
+to_json: DocString not found
+from_json: DocString not found
+__iter__: DocString not found
+__contains__: DocString not found
+
+Type Annotations:
+test_item
+__init__
+pick_up
+throw_away
+use
+to_json
+__str__
+from_json
+__init__
+use
+equip
+to_json
+from_json
+equip
+__init__
+equip
+use
+to_json
+from_json
+__init__
+to_json
+from_ability
+from_json
+__init__
+add_item
+drop_item
+to_json
+from_json
+__iter__
+__contains__
+
+Naming Violations:
+classes: 
+functions: use, use, equip, equip, equip, use
