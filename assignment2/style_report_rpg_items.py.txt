@@ -1,0 +1,32 @@
+File structure
+Total number of lines of code in the file: 85
+Imports: 
+Classes: Item, Weapon, Shield, Potion
+Functions: 
+
+Doc Strings
+Item: Item: DocString not found
+
+Weapon: Weapon: DocString not found
+
+Shield: Shield: DocString not found
+
+Potion: Potion: DocString not found
+
+__init__: __init__: DocString not found
+
+pick_up: pick_up: DocString not found
+
+throw_away: throw_away: DocString not found
+
+use: use: DocString not found
+
+equip: equip: DocString not found
+
+from_ability: from_ability: DocString not found
+
+Type Annotation Check
+Functions and methods without type annotations: __init__, pick_up, throw_away, use, __init__, equip, use, __init__, equip, use, __init__, use, from_ability
+Naming Convention Check
+All classes adhere to the naming convention.
+All functions adhere to the naming convention.
